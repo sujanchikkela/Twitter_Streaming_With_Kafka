@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Real-time twitter streaming</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+            integrity=""
+            crossorigin=""/>
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+                integrity=""
+                crossorigin=""></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="static/css/dashboard.css">
+</head>
+<body>
+<div class="text-center" style='background-color:lightgrey'>
+  <br>
+  <h1 style="font-family: Garamond" style='text-align:center'>CMPE 272 - Team Project</h1>
+  <h3 style="font-family: Garamond">San Jose State University</h3>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="input.html">Get Started</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="trending.html">Trending</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="map.html">Map</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="keyword.html">Keyword</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+</div>
+<div>
+    <div id="mapid" ></div>
+        <script src="../static/js/leaflet.js"></script>
+</div>
+
+</body>
+</html>

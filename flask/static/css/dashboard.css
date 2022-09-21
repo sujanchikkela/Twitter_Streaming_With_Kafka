@@ -1,0 +1,21 @@
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#trending_chart_area {
+  width: 45%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+
+#mapid {
+  background-color: #d9deda;
+  position: absolute;
+  top: 178px;
+  bottom: 0;
+  width: 100%;
+}
